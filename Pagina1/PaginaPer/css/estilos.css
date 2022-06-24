@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 0px;
+}
+.apartado{
+    text-align: center;
+    padding: 70px;
+}
+.uno{
+    background-image: radial-gradient(circle at 104.17% 95.45%, #7673dd 0, #6c6cd8 50%, #6165d3 100%);
+    height: 500px
+}
+nav{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background-color: #092B3B;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    text-align: right;
+}
+a{
+    display: inline-block;
+    color: white;
+    padding: 17px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-family: 'Kdam Thmor Pro', sans-serif;/*Titulos*/
+    font-size: 1.5rem;
+    background-color: #092B3B;
+    transition-duration: .4s;
+    cursor: pointer;
+}
+.a1{
+    background-color: #092B3B;
+    color: white;
+    border: 2px solid #092B3B;
+}
+.a1:hover{
+    background-color: #1E92EB;
+    color: white;
+}
+.a2{
+    background-color: #092B3B;
+    color: white;
+    border: 2px solid #092B3B;
+}
+.a2:hover{
+    background-color: #1E92EB;
+    color: white;
+}
+.a3{
+    background-color: #092B3B;
+    color: white;
+    border: 2px solid #092B3B;
+}
+.a3:hover{
+    background-color: #1E92EB;
+    color: white;
+}
+.a4{
+    background-color: #092B3B;
+    color: white;
+    border: 2px solid #092B3B;
+}
+.a4:hover{
+    background-color: #1E92EB;
+    color: white;
+}
+.a6{
+    background-color: #092B3B;
+    color: white;
+    border: 2px solid #092B3B;
+}
+.a5:hover{
+    background-color: #1E92EB;
+    color: white;
+}
+.vista{
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+    float:none;
+    position: relative;
+    text-align: center;
+}
+.vista img{
+    display: inline-block;
+    position: relative;
+    left: 472px;
+    box-shadow: 0px 10px 8px 0 rgba(000, 000, 000, 45%);
+    transition: all .2s linear;
+}
+.vista:hover img{
+    transform: scale(2,2);
+    -webkit-transform: scale(2,2);
+}
+.vista h1{
+    text-transform: uppercase;
+    color: white;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    left: 574px;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px ;
+    transition: all .4s linear;
+}
+.vista:hover h1{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+.tres{
+    background-color: #5aa3c4;
+    background:url(https://placeimg.com/1000/1000/tech) no-repeat fixed;
+
+}
+.cuatro{
+    width: 250px;
+    height: 600px;
+    background-color: #1D87b9;
+    display: inline-block;
+    left: 4rem;
+    position: relative;
+    left: 450px;
+    margin: 10px 0px 10px 30px;
+    border-radius: 10px;
+    transition: all .2s linear;
+}
+.cuatro:hover{
+    transition: all .2s linear;
+    transform: scale(1,1);
+}
+h2{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+h2:hover{
+    transform: translateX(-100px);
+    transition: all .2s linear;
+}
+.cuatro p{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+}
+.cuatro p:hover{
+    transform: translateX(-100px);
+    transition: all .4s linear;
+    transition-delay: .4s;
+}
+.glass{
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: rgba(250, 250, 250, .37);
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(250, 250, 250, .7);
+    padding: 15px 25px;
+    box-shadow: #000;
+    position: relative;
+    top: -400px;
+    left: -200px;
+}
+.glass p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: cyan;
+}
+.glass img{
+    width: 700px;
+    height: 500px;
+
+}
+.cinco{
+    background-color: #133240;
+    width: 100%;
+    height: 350px;
+}
+.cinco h1{
+    font-size: 30px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tresglass{
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(250, 250, 250, .37);
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(250, 250, 250, .7);
+    position: relative;
+    top: -80px;
+    right: 100px;
+    display: inline-block;
+}
+.tresglass h3{
+    font-size: 20px;
+    color: #000;
+    font-family: 'Rubik', sans-serif;
+}
+.tresglass p{
+    font-size: 15px;
+    color: #000;
+    font-family: 'Exo 2', sans-serif;
+}
+.tresglass2{
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(250, 250, 250, .37);
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(250, 250, 250, .7);
+    position: relative;
+    top: -80px;
+    right: 100px;
+    display: inline-block;
+}
+.tresglass2 h3{
+    font-size: 20px;
+    color: #000;
+    font-family: 'Rubik', sans-serif;
+}
+.tresglass2 p{
+    font-size: 15px;
+    color: #000;
+    font-family: 'Exo 2', sans-serif;
+}
+.tresglass3{
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(250, 250, 250, .37);
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(250, 250, 250, .7);
+    position: relative;
+    top: -80px;
+    right: 100px;
+    display: inline-block;
+}
+.tresglass3 h3{
+    font-size: 20px;
+    color: #000;
+    font-family: 'Rubik', sans-serif;
+}
+.tresglass3 p{
+    font-size: 15px;
+    color: #000;
+    font-family: 'Exo 2', sans-serif;
+}
+.ocho{
+    background-color: #166387;
+    width: 100%;
+    height: 500px;
+}
+.Lista{
+    width: 556px;
+    height: 350px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: rgba(250, 250, 250, .37);
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(250, 250, 250, .7);
+    padding: 15px 25px;
+    box-shadow: #000;
+    position: relative;
+    top: 50px;
+    left: -16px;
+}
+.lista h2{
+    font-family:'Rubik', sans-serif;
+    font-size: 20px;
+    color: aqua;
+}
+.Lista p{
+    font-family:'Exo 2', sans-serif;
+    font-size: 30px;
+    color: gold;
+}
+footer{
+    width: 100%;
+    height: 10px;
+}
+.siete{
+    background-color: #092B3B;
+    width: 100%;
+    height: 5px;
+}
+.enlances{
+    font-size: 1.5rem;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    top: -50px;
+    right: 50px;
+}
